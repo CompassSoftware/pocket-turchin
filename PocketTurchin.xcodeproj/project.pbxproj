@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB38FD571CB3153B0053354B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD561CB3153B0053354B /* AppDelegate.swift */; };
+		EB38FD591CB3153B0053354B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD581CB3153B0053354B /* FirstViewController.swift */; };
+		EB38FD5B1CB3153B0053354B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD5A1CB3153B0053354B /* SecondViewController.swift */; };
+		EB38FD5E1CB3153B0053354B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB38FD5C1CB3153B0053354B /* Main.storyboard */; };
+		EB38FD601CB3153B0053354B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB38FD5F1CB3153B0053354B /* Assets.xcassets */; };
+		EB38FD631CB3153B0053354B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB38FD611CB3153B0053354B /* LaunchScreen.storyboard */; };
+		EB38FD6E1CB3153B0053354B /* PocketTurchinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD6D1CB3153B0053354B /* PocketTurchinTests.swift */; };
+		EB38FD791CB3153B0053354B /* PocketTurchinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD781CB3153B0053354B /* PocketTurchinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB38FD6A1CB3153B0053354B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB38FD4B1CB3153B0053354B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB38FD521CB3153B0053354B;
+			remoteInfo = PocketTurchin;
+		};
+		EB38FD751CB3153B0053354B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB38FD4B1CB3153B0053354B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB38FD521CB3153B0053354B;
+			remoteInfo = PocketTurchin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB38FD531CB3153B0053354B /* PocketTurchin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketTurchin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB38FD561CB3153B0053354B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB38FD581CB3153B0053354B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EB38FD5A1CB3153B0053354B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EB38FD5D1CB3153B0053354B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB38FD5F1CB3153B0053354B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB38FD621CB3153B0053354B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB38FD641CB3153B0053354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB38FD691CB3153B0053354B /* PocketTurchinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketTurchinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB38FD6D1CB3153B0053354B /* PocketTurchinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTurchinTests.swift; sourceTree = "<group>"; };
+		EB38FD6F1CB3153B0053354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB38FD741CB3153B0053354B /* PocketTurchinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketTurchinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB38FD781CB3153B0053354B /* PocketTurchinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTurchinUITests.swift; sourceTree = "<group>"; };
+		EB38FD7A1CB3153B0053354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB38FD501CB3153B0053354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB38FD661CB3153B0053354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB38FD711CB3153B0053354B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB38FD4A1CB3153B0053354B = {
+			isa = PBXGroup;
+			children = (
+				EB38FD551CB3153B0053354B /* PocketTurchin */,
+				EB38FD6C1CB3153B0053354B /* PocketTurchinTests */,
+				EB38FD771CB3153B0053354B /* PocketTurchinUITests */,
+				EB38FD541CB3153B0053354B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB38FD541CB3153B0053354B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB38FD531CB3153B0053354B /* PocketTurchin.app */,
+				EB38FD691CB3153B0053354B /* PocketTurchinTests.xctest */,
+				EB38FD741CB3153B0053354B /* PocketTurchinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB38FD551CB3153B0053354B /* PocketTurchin */ = {
+			isa = PBXGroup;
+			children = (
+				EB38FD561CB3153B0053354B /* AppDelegate.swift */,
+				EB38FD581CB3153B0053354B /* FirstViewController.swift */,
+				EB38FD5A1CB3153B0053354B /* SecondViewController.swift */,
+				EB38FD5C1CB3153B0053354B /* Main.storyboard */,
+				EB38FD5F1CB3153B0053354B /* Assets.xcassets */,
+				EB38FD611CB3153B0053354B /* LaunchScreen.storyboard */,
+				EB38FD641CB3153B0053354B /* Info.plist */,
+			);
+			path = PocketTurchin;
+			sourceTree = "<group>";
+		};
+		EB38FD6C1CB3153B0053354B /* PocketTurchinTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB38FD6D1CB3153B0053354B /* PocketTurchinTests.swift */,
+				EB38FD6F1CB3153B0053354B /* Info.plist */,
+			);
+			path = PocketTurchinTests;
+			sourceTree = "<group>";
+		};
+		EB38FD771CB3153B0053354B /* PocketTurchinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB38FD781CB3153B0053354B /* PocketTurchinUITests.swift */,
+				EB38FD7A1CB3153B0053354B /* Info.plist */,
+			);
+			path = PocketTurchinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB38FD521CB3153B0053354B /* PocketTurchin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB38FD7D1CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchin" */;
+			buildPhases = (
+				EB38FD4F1CB3153B0053354B /* Sources */,
+				EB38FD501CB3153B0053354B /* Frameworks */,
+				EB38FD511CB3153B0053354B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketTurchin;
+			productName = PocketTurchin;
+			productReference = EB38FD531CB3153B0053354B /* PocketTurchin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB38FD681CB3153B0053354B /* PocketTurchinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB38FD801CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchinTests" */;
+			buildPhases = (
+				EB38FD651CB3153B0053354B /* Sources */,
+				EB38FD661CB3153B0053354B /* Frameworks */,
+				EB38FD671CB3153B0053354B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB38FD6B1CB3153B0053354B /* PBXTargetDependency */,
+			);
+			name = PocketTurchinTests;
+			productName = PocketTurchinTests;
+			productReference = EB38FD691CB3153B0053354B /* PocketTurchinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB38FD731CB3153B0053354B /* PocketTurchinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB38FD831CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchinUITests" */;
+			buildPhases = (
+				EB38FD701CB3153B0053354B /* Sources */,
+				EB38FD711CB3153B0053354B /* Frameworks */,
+				EB38FD721CB3153B0053354B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB38FD761CB3153B0053354B /* PBXTargetDependency */,
+			);
+			name = PocketTurchinUITests;
+			productName = PocketTurchinUITests;
+			productReference = EB38FD741CB3153B0053354B /* PocketTurchinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB38FD4B1CB3153B0053354B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shuffleres;
+				TargetAttributes = {
+					EB38FD521CB3153B0053354B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EB38FD681CB3153B0053354B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB38FD521CB3153B0053354B;
+					};
+					EB38FD731CB3153B0053354B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB38FD521CB3153B0053354B;
+					};
+				};
+			};
+			buildConfigurationList = EB38FD4E1CB3153B0053354B /* Build configuration list for PBXProject "PocketTurchin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB38FD4A1CB3153B0053354B;
+			productRefGroup = EB38FD541CB3153B0053354B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB38FD521CB3153B0053354B /* PocketTurchin */,
+				EB38FD681CB3153B0053354B /* PocketTurchinTests */,
+				EB38FD731CB3153B0053354B /* PocketTurchinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB38FD511CB3153B0053354B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB38FD631CB3153B0053354B /* LaunchScreen.storyboard in Resources */,
+				EB38FD601CB3153B0053354B /* Assets.xcassets in Resources */,
+				EB38FD5E1CB3153B0053354B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB38FD671CB3153B0053354B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB38FD721CB3153B0053354B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB38FD4F1CB3153B0053354B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB38FD5B1CB3153B0053354B /* SecondViewController.swift in Sources */,
+				EB38FD571CB3153B0053354B /* AppDelegate.swift in Sources */,
+				EB38FD591CB3153B0053354B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB38FD651CB3153B0053354B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB38FD6E1CB3153B0053354B /* PocketTurchinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB38FD701CB3153B0053354B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB38FD791CB3153B0053354B /* PocketTurchinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB38FD6B1CB3153B0053354B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB38FD521CB3153B0053354B /* PocketTurchin */;
+			targetProxy = EB38FD6A1CB3153B0053354B /* PBXContainerItemProxy */;
+		};
+		EB38FD761CB3153B0053354B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB38FD521CB3153B0053354B /* PocketTurchin */;
+			targetProxy = EB38FD751CB3153B0053354B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB38FD5C1CB3153B0053354B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB38FD5D1CB3153B0053354B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB38FD611CB3153B0053354B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB38FD621CB3153B0053354B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB38FD7B1CB3153B0053354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB38FD7C1CB3153B0053354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB38FD7E1CB3153B0053354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketTurchin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kC.PocketTurchin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB38FD7F1CB3153B0053354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketTurchin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kC.PocketTurchin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB38FD811CB3153B0053354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketTurchinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kC.PocketTurchinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketTurchin.app/PocketTurchin";
+			};
+			name = Debug;
+		};
+		EB38FD821CB3153B0053354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketTurchinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kC.PocketTurchinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketTurchin.app/PocketTurchin";
+			};
+			name = Release;
+		};
+		EB38FD841CB3153B0053354B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketTurchinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kC.PocketTurchinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketTurchin;
+			};
+			name = Debug;
+		};
+		EB38FD851CB3153B0053354B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketTurchinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kC.PocketTurchinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketTurchin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB38FD4E1CB3153B0053354B /* Build configuration list for PBXProject "PocketTurchin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB38FD7B1CB3153B0053354B /* Debug */,
+				EB38FD7C1CB3153B0053354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB38FD7D1CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB38FD7E1CB3153B0053354B /* Debug */,
+				EB38FD7F1CB3153B0053354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB38FD801CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB38FD811CB3153B0053354B /* Debug */,
+				EB38FD821CB3153B0053354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB38FD831CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB38FD841CB3153B0053354B /* Debug */,
+				EB38FD851CB3153B0053354B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB38FD4B1CB3153B0053354B /* Project object */;
+}
