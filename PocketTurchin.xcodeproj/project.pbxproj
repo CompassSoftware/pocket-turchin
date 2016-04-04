@@ -15,6 +15,7 @@
 		EB38FD631CB3153B0053354B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB38FD611CB3153B0053354B /* LaunchScreen.storyboard */; };
 		EB38FD6E1CB3153B0053354B /* PocketTurchinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD6D1CB3153B0053354B /* PocketTurchinTests.swift */; };
 		EB38FD791CB3153B0053354B /* PocketTurchinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38FD781CB3153B0053354B /* PocketTurchinUITests.swift */; };
+		EBC335BA1CB326D40093E563 /* ArchiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EB38FD741CB3153B0053354B /* PocketTurchinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketTurchinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB38FD781CB3153B0053354B /* PocketTurchinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketTurchinUITests.swift; sourceTree = "<group>"; };
 		EB38FD7A1CB3153B0053354B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EB38FD551CB3153B0053354B /* PocketTurchin */ = {
 			isa = PBXGroup;
 			children = (
+				EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */,
 				EB38FD561CB3153B0053354B /* AppDelegate.swift */,
 				EB38FD581CB3153B0053354B /* FirstViewController.swift */,
 				EB38FD5A1CB3153B0053354B /* SecondViewController.swift */,
@@ -261,6 +264,7 @@
 			files = (
 				EB38FD5B1CB3153B0053354B /* SecondViewController.swift in Sources */,
 				EB38FD571CB3153B0053354B /* AppDelegate.swift in Sources */,
+				EBC335BA1CB326D40093E563 /* ArchiveTableViewCell.swift in Sources */,
 				EB38FD591CB3153B0053354B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				EB38FD7F1CB3153B0053354B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB38FD801CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchinTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				EB38FD821CB3153B0053354B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB38FD831CB3153B0053354B /* Build configuration list for PBXNativeTarget "PocketTurchinUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				EB38FD851CB3153B0053354B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
