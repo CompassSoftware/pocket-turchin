@@ -9,7 +9,11 @@
 import UIKit
 
 class ArchiveTableViewCell: UITableViewCell {
-
+    
+    //MARKED PROPERTIES
+    @IBOutlet weak var archiveLabel: UILabel!
+    @IBOutlet weak var photoImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
