@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PocketTurchin/ArchiveTableViewController.swift"
-            timestampString = "482695470.78736"
+            timestampString = "484186054.852639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
             landmarkName = "prepareForSegue(_:sender:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -40,13 +40,170 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PocketTurchin/QuickSearchViewController.swift"
-            timestampString = "482782584.348627"
+            timestampString = "483386847.395992"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "did_load(_:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketTurchin/QuickSearchViewController.swift"
+            timestampString = "483374164.884525"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketTurchin/QuickSearchViewController.swift"
+            timestampString = "483386847.395992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "did_load(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketTurchin/ArchiveTableViewController.swift"
+            timestampString = "484186054.852639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketTurchin/ArchiveTableViewController.swift"
+            timestampString = "484186054.852639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "load_all()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketTurchin/ArchiveTableViewController.swift"
+            timestampString = "484175350.550375"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "ArchiveTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.ArchiveTableViewController.archive_count.getter : Swift.Int"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/ArchiveTableViewController.swift"
+                  timestampString = "484172686.109579"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.ArchiveTableViewController.archive_count.setter : Swift.Int"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/ArchiveTableViewController.swift"
+                  timestampString = "484172686.11085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.ArchiveTableViewController.init (style : __C.UITableViewStyle) -&gt; PocketTurchin.ArchiveTableViewController"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/ArchiveTableViewController.swift"
+                  timestampString = "484172686.110994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "314">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.ArchiveTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; PocketTurchin.ArchiveTableViewController"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/ArchiveTableViewController.swift"
+                  timestampString = "484172686.111118"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "391">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.ArchiveTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;PocketTurchin.ArchiveTableViewController&gt;"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/ArchiveTableViewController.swift"
+                  timestampString = "484172686.111256"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "317">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

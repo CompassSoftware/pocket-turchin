@@ -19,6 +19,10 @@
 		EB3D09D31CC54A8500AD747B /* ArchiveTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB3D09D11CC54A8500AD747B /* ArchiveTableViewController.xib */; };
 		EB3D09D51CC5746F00AD747B /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D09D41CC5746F00AD747B /* SearchBarController.swift */; };
 		EB3D09D71CC574EF00AD747B /* QuickSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D09D61CC574EF00AD747B /* QuickSearchViewController.swift */; };
+		EB4183851CE2363B00C68B27 /* CurrentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4183841CE2363B00C68B27 /* CurrentTableViewCell.swift */; };
+		EB4183871CE236B600C68B27 /* CurrentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4183861CE236B600C68B27 /* CurrentTableViewController.swift */; };
+		EB4183891CE2371100C68B27 /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4183881CE2371100C68B27 /* CurrentViewController.swift */; };
+		EBBF4A541CD262CA004F0328 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBF4A531CD262CA004F0328 /* Threading.swift */; };
 		EBC335BA1CB326D40093E563 /* ArchiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,10 @@
 		EB3D09D11CC54A8500AD747B /* ArchiveTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArchiveTableViewController.xib; sourceTree = "<group>"; };
 		EB3D09D41CC5746F00AD747B /* SearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
 		EB3D09D61CC574EF00AD747B /* QuickSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSearchViewController.swift; sourceTree = "<group>"; };
+		EB4183841CE2363B00C68B27 /* CurrentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTableViewCell.swift; sourceTree = "<group>"; };
+		EB4183861CE236B600C68B27 /* CurrentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTableViewController.swift; sourceTree = "<group>"; };
+		EB4183881CE2371100C68B27 /* CurrentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
+		EBBF4A531CD262CA004F0328 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 		EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,18 +117,22 @@
 		EB38FD551CB3153B0053354B /* PocketTurchin */ = {
 			isa = PBXGroup;
 			children = (
-				EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */,
-				EB3D09CA1CC5375B00AD747B /* ArchiveViewController.swift */,
-				EB3D09D61CC574EF00AD747B /* QuickSearchViewController.swift */,
 				EB38FD561CB3153B0053354B /* AppDelegate.swift */,
-				EB38FD5C1CB3153B0053354B /* Main.storyboard */,
-				EB3D09D41CC5746F00AD747B /* SearchBarController.swift */,
+				EB3D09CE1CC543C100AD747B /* Archive.swift */,
+				EBC335B91CB326D40093E563 /* ArchiveTableViewCell.swift */,
 				EB3D09D01CC54A8500AD747B /* ArchiveTableViewController.swift */,
 				EB3D09D11CC54A8500AD747B /* ArchiveTableViewController.xib */,
-				EB3D09CE1CC543C100AD747B /* Archive.swift */,
+				EB3D09CA1CC5375B00AD747B /* ArchiveViewController.swift */,
 				EB38FD5F1CB3153B0053354B /* Assets.xcassets */,
-				EB38FD611CB3153B0053354B /* LaunchScreen.storyboard */,
 				EB38FD641CB3153B0053354B /* Info.plist */,
+				EB38FD611CB3153B0053354B /* LaunchScreen.storyboard */,
+				EB38FD5C1CB3153B0053354B /* Main.storyboard */,
+				EB3D09D61CC574EF00AD747B /* QuickSearchViewController.swift */,
+				EB3D09D41CC5746F00AD747B /* SearchBarController.swift */,
+				EBBF4A531CD262CA004F0328 /* Threading.swift */,
+				EB4183841CE2363B00C68B27 /* CurrentTableViewCell.swift */,
+				EB4183861CE236B600C68B27 /* CurrentTableViewController.swift */,
+				EB4183881CE2371100C68B27 /* CurrentViewController.swift */,
 			);
 			path = PocketTurchin;
 			sourceTree = "<group>";
@@ -275,13 +287,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4183891CE2371100C68B27 /* CurrentViewController.swift in Sources */,
+				EBBF4A541CD262CA004F0328 /* Threading.swift in Sources */,
 				EB3D09CF1CC543C200AD747B /* Archive.swift in Sources */,
 				EB3D09D51CC5746F00AD747B /* SearchBarController.swift in Sources */,
 				EB3D09D71CC574EF00AD747B /* QuickSearchViewController.swift in Sources */,
+				EB4183871CE236B600C68B27 /* CurrentTableViewController.swift in Sources */,
 				EB38FD571CB3153B0053354B /* AppDelegate.swift in Sources */,
 				EB3D09CB1CC5375B00AD747B /* ArchiveViewController.swift in Sources */,
 				EB3D09D21CC54A8500AD747B /* ArchiveTableViewController.swift in Sources */,
 				EBC335BA1CB326D40093E563 /* ArchiveTableViewCell.swift in Sources */,
+				EB4183851CE2363B00C68B27 /* CurrentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
