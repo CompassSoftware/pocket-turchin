@@ -193,16 +193,16 @@
             </objects>
             <point key="canvasLocation" x="1142" y="912"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Current-->
         <scene sceneID="Jej-Uf-sDJ">
             <objects>
-                <tableViewController id="zb8-OD-Ddx" sceneMemberID="viewController">
+                <tableViewController id="zb8-OD-Ddx" customClass="CurrentTableViewController" customModule="PocketTurchin" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="KKJ-zt-DIg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CurrentTableViewCell" id="18Z-UJ-hQM">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CurrentTableViewCell" rowHeight="100" id="18Z-UJ-hQM" customClass="CurrentTableViewCell" customModule="PocketTurchin" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="18Z-UJ-hQM" id="X8r-A0-FT0">
@@ -221,9 +221,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="archiveLabel" destination="NW3-gi-igv" id="yVQ-ne-l35"/>
+                                    <outlet property="archiveLabel" destination="NW3-gi-igv" id="X2a-Ty-qDE"/>
                                     <outlet property="photoImageView" destination="JD3-5R-vrY" id="kyr-1F-H8e"/>
-                                    <segue destination="Nbw-gy-14F" kind="show" identifier="showDetail" id="PxN-II-Tgg"/>
+                                    <segue destination="Nbw-gy-14F" kind="show" identifier="ShowDetail" id="XOV-oD-SWK"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -232,7 +232,7 @@
                             <outlet property="delegate" destination="zb8-OD-Ddx" id="LcU-6r-y0w"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="c7Q-LX-9F9"/>
+                    <navigationItem key="navigationItem" title="Current" id="c7Q-LX-9F9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XYv-Zc-nKg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -301,6 +301,6 @@
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PxN-II-Tgg"/>
+        <segue reference="XOV-oD-SWK"/>
     </inferredMetricsTieBreakers>
 </document>

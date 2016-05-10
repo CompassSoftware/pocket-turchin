@@ -206,5 +206,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PocketTurchin/CurrentTableViewController.swift"
+            timestampString = "484601984.449631"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadAllCurrent()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.CurrentTableViewController.loadAllCurrent () -&gt; ()"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/CurrentTableViewController.swift"
+                  timestampString = "484601984.780477"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PocketTurchin.CurrentTableViewController.(loadAllCurrent () -&gt; ()).(closure #1)"
+                  moduleName = "PocketTurchin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alymer/Documents/pocket-turchin/PocketTurchin/CurrentTableViewController.swift"
+                  timestampString = "484601984.781043"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
